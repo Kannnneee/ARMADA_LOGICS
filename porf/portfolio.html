@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
     <head>
         <title>Kenn Robie - Student</title>
+        <link rel="stylesheet" href="design.css" />
     </head>
     <body>
-        <h1>Kenn Robie</h1>
+        <h1 id="main-title">Kenn Robie Laigo</h1>
         <nav>
             <ul>
                 <li><a href="email">Send Email</a></li>
@@ -63,25 +64,32 @@
                     <br>
                     <fieldset id="evaluation">
                         <legend>How did you hear about this portfolio?</legend>
-                            <label for="friend">Friends</label>
-                            <input type="radio" id="friend" name="friend" value="friend">
-                            <label for="social_media">Social Media</label>
-                            <input type="radio" id="social_media" name="source" value="social_media">
-                            <label for="search_engine">Search Engine</label>
-                            <input type="radio" id="search_engine" name="source" value="search_engine">
-                            <label for="others">Others</label>
-                            <input type="radio" id="others" name="source" value="others">
-                    </fieldset>
+                        <label for="friend">
+                            <input type="radio" id="friend" name="source" value="friend"> Friends
+                        </label>
+                        <label for="social_media">
+                            <input type="radio" id="social_media" name="source" value="social_media"> Social Media
+                        </label>
+                        <label for="search_engine">
+                            <input type="radio" id="search_engine" name="source" value="search_engine"> Search Engine
+                        </label>
+                        <label for="others">
+                            <input type="radio" id="others" name="source" value="others"> Others
+                        </label>  
+                    </fieldset>                    
                     <br>   
                     <fieldset id="skills">
                         <legend>Skills/Interest</legend>
-                            <label for="web_dev">Web Development</label>
-                            <input type="checkbox" id="web_dev" name="interests" value="web_dev">
-                            <label for="design">Design</label>
-                            <input type="checkbox" id="design" name="interests" value="design"> 
-                            <label for="photography">Photography</label>
-                            <input type="checkbox" id="photography" name="interests" value="photography">
-                    </fieldset> 
+                        <label for="web_dev">
+                            <input type="checkbox" id="web_dev" name="interests" value="web_dev"> Web Development
+                        </label>
+                        <label for="design">
+                            <input type="checkbox" id="design" name="interests" value="design"> Design
+                        </label> 
+                        <label for="photography">
+                            <input type="checkbox" id="photography" name="interests" value="photography"> Photography
+                        </label>
+                    </fieldset>                     
                     <section id="comments">
                         <p>Comments or Messages:</p>
                         <textarea id="message" name="message"></textarea>
